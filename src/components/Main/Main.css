@@ -1,0 +1,19 @@
+.postsDiv{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 228, 195,0.4);
+    margin: 20px;
+}
+.postsDiv:hover{
+    background-color:rgb(241, 197, 142,);
+    border: 4px solid black;
+}
+.authorDiv{
+    border: 1px solid blue;
+    background-color: aliceblue;
+}
+.viewsDiv{
+    border: 1px solid red;
+    background-color: red;
+}

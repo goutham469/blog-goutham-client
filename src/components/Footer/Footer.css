@@ -1,0 +1,31 @@
+.footer{
+    height: 300px;
+    background-image: url('./wave.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation-name: move;
+    animation-duration: 1s;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-timing-function:ease; */
+    /* animation-timing-function: linear; */
+    animation-timing-function: steps(3);
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    0%{background-image: url('./wave1.png');}
+    100%{background-image: url('./wave2.png');}
+}
+@keyframes rotate {
+    100%{transform: rotateZ(360deg);}
+}
+.socialIcon:hover {
+    animation: liftUp 1s;
+    background-color: aqua;
+}
+
+@keyframes liftUp {
+    100% {
+        transform: translateY(-30px);
+    }
+}
+

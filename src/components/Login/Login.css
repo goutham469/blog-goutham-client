@@ -1,0 +1,35 @@
+/* .FormDiv{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    padding: 100px;
+    margin: 10px;
+    width: fit-content;
+} */
+.usernameInput{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 20px;
+}
+.passwordInput{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 20px;
+}
+.SubmiButton{
+    background-color: rgb(143, 185, 143);
+    border: 1px solid antiquewhite;
+    border-radius: 30px;
+    padding: 10px;
+}
+.SubmiButton:hover{
+    background-color: rgb(11, 242, 11);
+}
+.errorMessageSpan{
+    min-height: 20px;
+}
+input{
+    border: 1px solid rgb(0, 0, 0);
+}
